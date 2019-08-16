@@ -1,5 +1,5 @@
-FROM kevindierkx/php-ci:7.1
-MAINTAINER Kevin Dierkx <kevin@pcextreme.nl>
+FROM jessekramer/php-ci:7.1
+MAINTAINER Jesse Kramer <jkramer@pcextreme.nl>
 
 # Setup configs
 COPY config/xdebug.ini $PHP_INI_DIR/conf.d/
