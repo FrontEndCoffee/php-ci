@@ -2,7 +2,7 @@ FROM kevindierkx/php-ci:7.1
 MAINTAINER Kevin Dierkx <kevin@pcextreme.nl>
 
 # Setup configs
-COPY 7.1-xdebug/config/xdebug.ini $PHP_INI_DIR/conf.d/
+COPY config/xdebug.ini $PHP_INI_DIR/conf.d/
 
 # Install xdebug
 RUN apk add --no-cache --virtual .build-deps \
