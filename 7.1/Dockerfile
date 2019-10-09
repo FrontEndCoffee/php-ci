@@ -10,7 +10,8 @@ RUN apk add --no-cache --virtual .persistent-deps \
         openssh-client \
         git \
         libxml2-dev \
-        make
+        make \
+        grep
 
 # Install PHP extensions
 ENV MEMCACHED_DEPS zlib-dev libmemcached-dev cyrus-sasl-dev
