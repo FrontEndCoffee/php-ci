@@ -11,7 +11,8 @@ RUN apk add --no-cache --virtual .persistent-deps \
         git \
         libxml2-dev \
         make \
-        grep
+        grep \
+        bash
 
 # Install PHP extensions
 ENV MEMCACHED_DEPS zlib-dev libmemcached-dev cyrus-sasl-dev
